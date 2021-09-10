@@ -1,0 +1,11 @@
+var s = 12;
+try {
+    s = s.split('').reverse().join('');
+}
+catch (e) {
+    console.log(e.message);
+}
+finally {
+    console.log(s);
+}
+
